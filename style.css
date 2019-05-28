@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+input{
+    font-family: 'Righteous', cursive;
+    font-size:100px; 
+    letter-spacing:10px;
+    width:120px;
+    height:180px;
+    display: inline-block; 
+    text-align:center;
+    background-color: #00a9d3;
+    border-radius: 70px;
+    border:none;
+    border:1px solid#313131;
+}
+
+input:hover {
+    background-color: #f702ea;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  input:active {
+    transform: scale(0.8, 0.8);
+  }
+.fontti{
+padding-top:20px;
+}
+#numeronaytto{
+    border:2px solid #818181;
+    border-radius: 0px;
+    font-size:60px;
+    width:90%;
+    color: rgb(208, 243, 8);
+    padding:10px;
+    height:100px;
+    background-color:#313131;
+}
+#numeronaytto:active{
+    transform: scale(1, 1);
+}
+#numeronaytto:hover {
+   
+    color: #fff;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0), 0 0px 0px 0 rgba(0,0,0,0);
+  }
+#dark{
+    background-color:rgb(12, 206, 240);
+    width: 500px;
+    height:auto;
+    text-align:center;
+    padding: 20px;
+    align-content: center;
+}
+
+.pain{
+    margin: auto;
+    width: 50%;
+    height:80%;
+}
+#wider{
+    width:250px;
+}
+#height{
+    height: 80%;
+}
